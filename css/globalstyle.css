@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "regular";
+    src: url();
+}
+p{
+  direction: rtl;
+}
+
+html{
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+}

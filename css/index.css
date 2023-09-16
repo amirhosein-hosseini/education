@@ -1,0 +1,50 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero-image{
+    flex: 1;
+    max-width: 594px;
+    overflow: hidden;
+}
+.hero-image img{
+    object-fit: cover;
+    width: 100%;
+}
+.hero-desc{
+    flex: 1;
+    text-align: right;
+}
+.hero-title{
+    font-size: 48px;
+    color: #021535;
+    font-family: "regular";
+}
+.hero-desc-desc{
+    font-size: 24px;
+    color: rgb(2, 21, 53 , 60%);
+}
+.hero-input{
+    max-width: 386px;
+    margin-left: auto;
+    position: relative;
+    margin-right: 32px;
+}
+.hero-input input{
+    border: 1px solid #C9DEFE;
+    border-radius: 10px;
+    text-align: right;
+    padding: 15px;
+    width: 100%;
+}
+.hero-input img{
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.hero-input input::placeholder{
+    font-size: 20px;
+    color: #2B2F53;
+}
